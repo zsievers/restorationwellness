@@ -1,5 +1,4 @@
-import React from "react";
-import img from "../../images/lavendar3.jpg";
+import img from "../images/lavendar3.jpg";
 
 export default function Header() {
   return (

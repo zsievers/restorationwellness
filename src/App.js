@@ -1,6 +1,6 @@
-import Navbar from "./components/Navbar/navbar";
-import Header from "./components/Header/header";
-import Banner from "./components/Banner";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import Services from "./components/Services";
 import "./index.css";
 
 export default function App() {
@@ -8,7 +8,7 @@ export default function App() {
     <>
       <Header />
       <Navbar />
-      <Banner />
+      <Services />
     </>
   );
 }
