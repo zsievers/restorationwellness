@@ -2,12 +2,12 @@ import headshot from "../images/cindy.JPG";
 
 export default function About_Me() {
   return (
-    <div className="p-10 grid grid-cols-1 md:grid-cols-2 gap-5">
+    <div className="p-10 bg- grid grid-cols-1 md:grid-cols-2 gap-5">
       <div className="px-2 py-1">
         <img
           src={headshot}
           alt=""
-          className="h-full w-auto object-cover rounded-full"
+          className="h-full w-auto object-cover shadow-2xl rounded-full"
         />
       </div>
       <div className="rounded overflow-hidden px-6 py-4">
