@@ -7,7 +7,16 @@ module.exports = withMT({
         logo1: ["Sansita Swashed, cursive"],
         logo2: ["Bilbo Swash Caps, cursive"],
       },
+      lineClamp: {
+        10: "10",
+        12: "12",
+      },
     },
   },
-  plugins: [],
+  variants: {
+    extend: {
+      lineClamp: ["hover"],
+    },
+  },
+  plugins: [require("@tailwindcss/line-clamp")],
 });
