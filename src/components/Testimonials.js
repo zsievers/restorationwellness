@@ -1,9 +1,6 @@
-import { useState } from "react";
 import Testimonial from "./Testimonial";
 
 export default function Testimonials({ data }) {
-  const [readMore, setReadMore] = useState(false);
-
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">

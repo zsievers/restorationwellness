@@ -18,13 +18,8 @@ export default function Example() {
 
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center">
+      <Typography as="li" variant="small" color="blue-gray" className="p-1">
+        <a href="#" className="flex items-center text-gray-600 font-semibold">
           Home
         </a>
       </Typography>
@@ -32,7 +27,7 @@ export default function Example() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 text-gray-600 font-semibold"
       >
         <a href="#" className="flex items-center">
           Services
@@ -42,7 +37,7 @@ export default function Example() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 text-gray-600 font-semibold"
       >
         <a href="#" className="flex items-center">
           About Me
@@ -53,12 +48,12 @@ export default function Example() {
 
   return (
     <Navbar className="sticky top-0 z-50 mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4">
-      <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
+      <div className="container text-gray-600 mx-auto flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="#"
           variant="small"
-          className="mr-4 cursor-pointer py-1.5 font-normal"
+          className="mr-4 cursor-pointer py-1.5"
         >
           <span className="text-5xl md:text-2xl text-[#ad91a4] font-logo2">
             RW
@@ -104,7 +99,7 @@ export default function Example() {
         </IconButton>
       </div>
       <MobileNav open={openNav}>
-        <div className="container mx-auto">{navList}</div>
+        <div className="container mx-auto ">{navList}</div>
       </MobileNav>
     </Navbar>
   );

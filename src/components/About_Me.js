@@ -7,10 +7,10 @@ export default function About_Me() {
         <img
           src={headshot}
           alt=""
-          className="h-full w-auto object-cover shadow-2xl rounded-full"
+          className="h-full w-96  md:h-full lg:h-full lg:w-96 m-auto object-cover shadow-2xl rounded-full"
         />
       </div>
-      <div className="rounded overflow-hidden px-6 py-4">
+      <div className="text-gray-600 rounded overflow-hidden px-6 py-4">
         <p className="text-md md:text-base lg:text-2xl">
           My name is Cindy Giles and I have 30 years of experience in the world
           of health and fitness. My personal journey of seeking and finding
