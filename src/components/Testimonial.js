@@ -4,7 +4,7 @@ const Testimonial = ({ id, text, title, author }) => {
   const [readMore, setReadMore] = useState(false);
   return (
     <div className="md:w-1/3 px-2 py-1 text-sm md:text-base lg:text-lg">
-      <div className="h-full border-x-4 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+      <div className="h-full border-x-4 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-white">
         <div className="p-3">
           <h2 className="tracking-widest text-sm title-font font-medium text-gray-400 mb-2 ">
             {title}

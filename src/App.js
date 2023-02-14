@@ -11,9 +11,11 @@ export default function App() {
     <>
       <Header />
       <Navbar />
-      <About_Me />
-      <Testimonials data={data} />
-      <Services />
+      <div className="bg-gradient-to-b from-white to-[#ad91a4]">
+        <About_Me />
+        <Testimonials data={data} />
+        <Services />
+      </div>
     </>
   );
 }

@@ -10,7 +10,7 @@ function Services() {
           alt="weight loss"
           className="w-full h-96 object-cover"
         />
-        <div className="px-6 py-4">
+        <div className="px-6 py-4 bg-white">
           <div className="font-bold text-xl mb-2">Weight Loss</div>
           <p className="text-gray-700">
             Includes consultation, weigh-in, goal-based meal suggestions, weekly
@@ -24,7 +24,7 @@ function Services() {
           alt="weight loss"
           className="w-full h-96 object-cover"
         />
-        <div className="px-6 py-4">
+        <div className="px-6 py-4 bg-white">
           <div className="font-bold text-xl mb-2">Personal Training</div>
           <p className="text-gray-700">
             Cardiovascular, Strength, Flexibility or a combination of all. 30 or
