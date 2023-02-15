@@ -14,7 +14,7 @@ const Testimonial = ({ id, text, title, author }) => {
               {readMore ? text : `${text.substring(0, 200)}... `}
               <button
                 onClick={() => setReadMore(!readMore)}
-                className="text-purple-200 underline"
+                className="underline hover:text-[#ad91a4]"
               >
                 {readMore ? "  Show Less" : "  Read More"}
               </button>
