@@ -29,7 +29,7 @@ export default function Example() {
         color="blue-gray"
         className="p-1 text-gray-600 font-semibold"
       >
-        <a href="#" className="flex items-center">
+        <a href="#services" className="flex items-center">
           Services
         </a>
       </Typography>
@@ -39,8 +39,18 @@ export default function Example() {
         color="blue-gray"
         className="p-1 text-gray-600 font-semibold"
       >
-        <a href="#" className="flex items-center">
+        <a href="#about-me" className="flex items-center">
           About Me
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 text-gray-600 font-semibold"
+      >
+        <a href="#contact-me" className="flex items-center">
+          Contact Me
         </a>
       </Typography>
     </ul>

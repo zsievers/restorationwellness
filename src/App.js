@@ -12,12 +12,12 @@ export default function App() {
     <>
       <Header />
       <Navbar />
-      <div className="bg-gradient-to-b from-white to-[#ad91a4]">
+      <div className="bg-gradient-to-b from-white to-[#d3b1c8]">
         <About_Me />
         <Testimonials data={data} />
         <Services />
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }

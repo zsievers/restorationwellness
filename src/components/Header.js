@@ -2,7 +2,7 @@ import img from "../images/lavendar3.jpg";
 
 export default function Header() {
   return (
-    <div>
+    <div id="home">
       <div className="h-screen w-full bg-cover bg-center relative">
         <img
           src={img}

@@ -3,8 +3,11 @@ import img2 from "../images/gym.png";
 
 function Services() {
   return (
-    <div className="p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
-      <div className="rounded overflow-hidden shadow-lg">
+    <div
+      className="p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5"
+      id="services"
+    >
+      <div className="rounded overflow-hidden shadow-lg bg-white">
         <img
           src={img1}
           alt="weight loss"
@@ -18,7 +21,7 @@ function Services() {
           </p>
         </div>
       </div>
-      <div className="rounded overflow-hidden shadow-lg">
+      <div className="rounded overflow-hidden shadow-lg bg-white">
         <img
           src={img2}
           alt="weight loss"

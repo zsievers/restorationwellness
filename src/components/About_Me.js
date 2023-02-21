@@ -2,7 +2,7 @@ import headshot from "../images/cindy.JPG";
 
 export default function About_Me() {
   return (
-    <div className="p-10 grid grid-cols-1 md:grid-cols-2 gap-5">
+    <div className="p-10 grid grid-cols-1 md:grid-cols-2 gap-5" id="about-me">
       <div className="px-2 py-1">
         <img
           src={headshot}
