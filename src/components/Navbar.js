@@ -19,7 +19,10 @@ export default function Example() {
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography as="li" variant="small" color="blue-gray" className="p-1">
-        <a href="#" className="flex items-center text-gray-600 font-semibold">
+        <a
+          href="#home"
+          className="flex items-center text-gray-600 font-semibold"
+        >
           Home
         </a>
       </Typography>

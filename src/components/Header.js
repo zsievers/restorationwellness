@@ -6,6 +6,7 @@ export default function Header() {
       <div className="h-screen w-full bg-cover bg-center relative">
         <img
           src={img}
+          alt="lavendar field"
           className="w-full h-full object-cover absolute mix-blend-overlay"
         />
         <div className="flex flex-col text-center px-10 py-5 mb-10">
