@@ -1,4 +1,4 @@
-export default data = [
+const data = [
   {
     id: 1,
     title: "Encouragement",
@@ -29,3 +29,5 @@ export default data = [
     author: "- Kelly",
   },
 ];
+
+export default data;
