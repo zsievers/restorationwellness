@@ -1,4 +1,4 @@
-import img from "../images/lavendar3.jpg?nf_resize=fit ";
+import img from "../images/lavendar5.jpg";
 
 export default function Header() {
   return (
