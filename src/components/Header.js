@@ -1,11 +1,11 @@
-import img from "../images/lavendar5.jpg";
+import heroImg from "../images/lavendar3.jpg";
 
 export default function Header() {
   return (
     <div id="home">
       <div className="h-screen w-full bg-cover bg-center relative">
         <img
-          src={img}
+          src={heroImg}
           alt="lavendar field"
           className="w-full h-full object-cover absolute mix-blend-overlay"
         />
