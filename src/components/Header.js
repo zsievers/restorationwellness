@@ -1,4 +1,4 @@
-import heroImg from "../images/heroImg.png";
+import heroImg from "../images/bg-img.jpg";
 
 export default function Header() {
   return (
