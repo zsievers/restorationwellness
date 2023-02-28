@@ -7,10 +7,9 @@ export default function Header() {
         <img
           src={heroImg}
           alt="lavendar field"
-          // className="w-full h-full object-cover absolute m-auto mix-blend-overlay"
           className="w-full h-full object-cover absolute m-auto bg-blend-overlay"
         />
-        <div className="flex flex-col text-center px-10 py-5 mb-10">
+        <div className="flex flex-col text-center px-10 py-5 mb-10 text-black opacity-90">
           <h1 className="text-black text-5xl md:text-7xl lg:text-8xl font-light font-logo2 mt-10">
             Restoration Wellness
           </h1>
