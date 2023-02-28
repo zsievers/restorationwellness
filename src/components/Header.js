@@ -17,14 +17,14 @@ export default function Header() {
             Hope | Confidence | Freedom
           </h2>
         </div> */}
-        <div className="flex flex-col px-8 py-4 mb-10 md:py-2 border-4 bg-white w-3/4 m-auto opacity-75">
+        {/* <div className="flex flex-col px-8 py-4 mb-10 md:py-2 border-4 bg-white w-3/4 m-auto opacity-75">
           <p className="text-black text-center text-lg md:text-2xl lg:3xl font-light font-logo1">
             I believe that every person should feel FREE in their bodies:
             physically, mentally, and emotionally. It is my goal and my vision
             to partner with you and empower you to see these changes transform
             your life from the inside out.
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
