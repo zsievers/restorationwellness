@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Services from "./components/Services";
 import AboutMe from "./components/About_Me";
@@ -11,7 +11,7 @@ export default function App() {
   return (
     <>
       <Header />
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="bg-gradient-to-b from-white to-[#d3b1c8]">
         <AboutMe />
         <Testimonials data={data} />
