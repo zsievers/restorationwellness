@@ -12,7 +12,7 @@ export default function About_Me() {
       </div>
       <div className="text-gray-600 rounded overflow-hidden px-6 py-4">
         <p className="text-md md:text-base lg:text-2xl">
-          My name is Cindy Giles and I have 30 years of experience in the world
+          My name is Cindy Giles and I have 37 years of experience in the world
           of health and fitness. My personal journey of seeking and finding
           Hope, Confidence, and Freedom is long and winding, which is why it is
           my mission to connect with you and encourage you towards this holistic
