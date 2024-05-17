@@ -17,7 +17,7 @@ function Services() {
           <div className="font-bold text-xl mb-2">Weight Loss</div>
           <p className="text-gray-700">
             Includes consultation, weigh-in, goal-based meal suggestions, weekly
-            meal evals, and mental/emotinoal support and encouragement check-ins
+            meal evals, and mental/emotional support and encouragement check-ins
           </p>
         </div>
       </div>
